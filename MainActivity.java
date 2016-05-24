@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        } else if (isConnectedToInternet()){ //if database isn't filled and internet connection exist
+        } else if (isConnectedToInternet()){ //if database isn't filled and internet connection exists
             Log.d(LOG_TAG, "connecting to json");
             Toast toast = Toast.makeText(getApplicationContext(), "Downloading data and writing database",
                     Toast.LENGTH_SHORT);
